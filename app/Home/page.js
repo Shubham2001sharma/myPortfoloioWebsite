@@ -2,7 +2,7 @@
 import React from "react";
 import Navigation from "../Navigation/page";
 import Image from "next/image";
-import pic from "../public/pic.jpeg";
+import pic from "../public/profile.jpeg"
 import github from "../public/th.jpeg";
 import linkdin from "../public/Linkdin.jpeg";
 import gmail from "../public/download.png";
@@ -20,7 +20,7 @@ function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-60"></div>
 
           <div className="relative z-10">
-            <div className="relative w-36 h-36 overflow-hidden rounded-full border-4 border-gray-300 shadow-lg mb-6">
+            <div className="relative w-44 h-44 overflow-hidden rounded-full border-4 border-gray-300 shadow-lg mb-6">
               <Image
                 className="object-cover w-full h-full transform transition-transform duration-300 hover:scale-110 hover:shadow-2xl"
                 src={pic}
