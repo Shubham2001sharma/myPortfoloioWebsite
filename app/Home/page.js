@@ -424,55 +424,57 @@ function Home() {
               📞 858-082-0152
             </p>
 
-            <a
-              href="https://github.com/Shubham2001sharma"
-              className="inline-flex items-center justify-center bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-            >
-              <div className="w-10 h-10 rounded-full overflow-hidden mr-3 flex items-center justify-center bg-white shadow-sm">
-                <Image
-                  src={github}
-                  width={32}
-                  height={32}
-                  alt="GitHub Icon"
-                  className="object-cover"
-                />
-              </div>
-              <span className="text-lg font-semibold">Github</span>
-            </a>
+            <div className="flex flex-wrap justify-center gap-4">
+              <a
+                href="https://github.com/Shubham2001sharma"
+                className="inline-flex items-center justify-center bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              >
+                <div className="w-10 h-10 rounded-full overflow-hidden mr-3 flex items-center justify-center bg-white shadow-sm">
+                  <Image
+                    src={github}
+                    width={32}
+                    height={32}
+                    alt="GitHub Icon"
+                    className="object-cover"
+                  />
+                </div>
+                <span className="text-lg font-semibold">Github</span>
+              </a>
 
-            <a
-              href="https://www.linkedin.com/in/shubham-sharma-346734214"
-              className="ml-96 -mr-10 inline-flex items-center justify-center bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="w-10 h-10 rounded-full overflow-hidden mr-3 flex items-center justify-center bg-white shadow-sm">
-                <Image
-                  src={linkdin}
-                  width={32}
-                  height={32}
-                  alt="LinkedIn Icon"
-                  className="object-cover"
-                />
-              </div>
-              <span className="text-lg font-semibold">LinkedIn</span>
-            </a>
+              <a
+                href="https://www.linkedin.com/in/shubham-sharma-346734214"
+                className="inline-flex items-center justify-center bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="w-10 h-10 rounded-full overflow-hidden mr-3 flex items-center justify-center bg-white shadow-sm">
+                  <Image
+                    src={linkdin}
+                    width={32}
+                    height={32}
+                    alt="LinkedIn Icon"
+                    className="object-cover"
+                  />
+                </div>
+                <span className="text-lg font-semibold">LinkedIn</span>
+              </a>
 
-            <a
-              href="mailto:sharmashubu4600@gmail.com"
-              className="ml-96 inline-flex items-center justify-center bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-            >
-              <div className="w-10 h-10 rounded-full overflow-hidden mr-3 flex items-center justify-center bg-white shadow-sm">
-                <Image
-                  src={gmail}
-                  width={32}
-                  height={32}
-                  alt="GitHub Icon"
-                  className="object-cover"
-                />
-              </div>
-              <span className="text-lg font-semibold">Gmail</span>
-            </a>
+              <a
+                href="mailto:sharmashubu4600@gmail.com"
+                className="inline-flex items-center justify-center bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              >
+                <div className="w-10 h-10 rounded-full overflow-hidden mr-3 flex items-center justify-center bg-white shadow-sm">
+                  <Image
+                    src={gmail}
+                    width={32}
+                    height={32}
+                    alt="Gmail Icon"
+                    className="object-cover"
+                  />
+                </div>
+                <span className="text-lg font-semibold">Gmail</span>
+              </a>
+            </div>
           </div>
         </section>
       </main>
